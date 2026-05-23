@@ -1,0 +1,14 @@
+{
+    "name": "Downloadable Content",
+    "description": "All Downloadable Content",
+    "author": "tsk.xz",
+    "contact": "@tsk.xz",
+    "version": "v1.0.0",
+    
+    "hooks": [
+    {
+        "hook_id": "lib/managers/dlcmanager",
+        "script_path": "dlc-unlocker.lua"
+    }
+    ]
+}
