@@ -1,0 +1,16 @@
+{
+	"name" : "Reset Inventory Profiles",
+	"description" : "Adds the ability to reset loadouts. (Located in Mod Options)",
+	"author" : "Offyerrocker",
+	"image" : "icon.png",
+	"color" : "64 128 255",
+	"contact" : "Discord: Offyerrocker#3878",
+	"version" : "2.2",
+	"blt_version" : 2,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "menumanager.lua"
+		}
+	]
+}

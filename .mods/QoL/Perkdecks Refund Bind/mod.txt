@@ -1,0 +1,26 @@
+{
+	"name" : "Perkdeck Refund Bind",
+	"description" : "Easily refund your perkdecks!",
+	"author" : "Dravarden"
+	"version" : "1.01",
+	"hooks" :
+[
+   
+	{
+		"hook_id" : "lib/managers/skilltree"
+		"script_path" : "perkdeckrefund.lua"
+	}
+],
+	"keybinds" :
+[
+	{
+            "keybind_id": "keybind_refund_perk",
+            "name": "Perkdeck Refund Keybind",
+            "description": "keybind to refund your perkdecks",
+            "script_path": "perkdeckrefund.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+	}
+]
+}

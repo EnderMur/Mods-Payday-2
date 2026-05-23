@@ -1,0 +1,20 @@
+{
+	"epss_options_menu_title": "Extra Profiles and Skill Sets",
+	"epss_options_menu_desc": "Extra Profiles and Skill Sets mod options.",
+	"epss_total_profiles_title": "Number of Profiles",
+	"epss_total_profiles_desc": "Total number of profiles (including base game profiles). Click \"Save\" to confirm changes.",
+	"epss_commit_settings_title": "Save",
+	"epss_commit_settings_desc": "Click to confirm changes to number of profiles, otherwise they will be discarded.",
+	"epss_autobind_skills_title": "Autobind Skill Sets",
+	"epss_autobind_skills_desc": "When switching to a profile, the corresponding skill set will be automatically equipped.\nAll skill sets will be unlocked on restart.",
+	"epss_allow_fewer_title": "Allow fewer profiles",
+	"epss_allow_fewer_desc": "Reduce the number of profiles and skill sets to below what is available in the base game.",
+	"epss_dialog_title": "Extra Profiles and Skill Sets",
+	"epss_dialog_autobind": "Autobind skill sets is active. Available skill sets are bound to the corresponding profile and cannot be changed.\n\nDisable autobind in the options menu to reassign skill sets manually.",
+	"epss_dialog_unchanged": "Number of profiles unchanged.",
+	"epss_dialog_number_profiles": "You have selected $new_num profiles. You currently have $old_num profiles.",
+	"epss_dialog_add_remove_single": "Profile #$profile_num will be $operation.",
+	"epss_dialog_add_remove_multiple": "Profiles #$profile_min - #$profile_max will be $operation.",
+	"epss_dialog_ask_continue": "Do you want to continue?",
+	"epss_dialog_saved": "Number of profiles updated. Restart your game for changes to take effect."
+}

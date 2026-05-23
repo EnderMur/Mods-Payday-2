@@ -1,0 +1,13 @@
+{
+	"name" : "No interaction cooldowns - Version A",
+	"description" : "Completely gets rid of interaction cooldowns",
+	"author" : "Chibibowa"
+	"blt_version" : 2,	
+	"color" : "60 150 85",
+	"image" : "NoCooldowns.png",
+	"contact" : "https://steamcommunity.com/id/Chibibowaa/",
+	"version" : "0.0.2",
+	"hooks":[
+		{ "hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "NoCooldowns.lua" }
+		]
+}

@@ -1,0 +1,1 @@
+	tweak_data.team_ai.stop_action.distance = 300000

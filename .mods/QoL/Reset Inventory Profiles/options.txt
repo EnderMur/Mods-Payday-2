@@ -1,0 +1,179 @@
+{
+	"menu_id" : "menu_reset_skill_profile",
+	"parent_menu_id" : "blt_options",
+	"title" : "rsp_menu_title",
+	"focus_changed_callback" : "rsp_focus_changed_callback",
+	"items" : [		
+		{
+			"type" : "multiple_choice",
+			"id" : "id_rsp_select_profile",
+			"title" : "rsp_select_profile_title",
+			"description" : "rsp_select_profile_desc",
+			"callback" : "callback_rsp_select_profile",
+			"items" : [
+			]
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_names",
+			"title" : "rsp_should_reset_names_title",
+			"description" : "rsp_should_reset_names_desc",
+			"callback" : "callback_rsp_should_reset_names",
+			"value" : "names"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_skillset_names",
+			"title" : "rsp_should_reset_skillset_names_title",
+			"description" : "rsp_should_reset_skillset_names_desc",
+			"callback" : "callback_rsp_should_reset_skillset_names",
+			"value" : "skillset_names"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_masks",
+			"title" : "rsp_should_reset_masks_title",
+			"description" : "rsp_should_reset_masks_desc",
+			"callback" : "callback_rsp_should_reset_masks",
+			"value" : "masks"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_armors",
+			"title" : "rsp_should_reset_armors_title",
+			"description" : "rsp_should_reset_armors_desc",
+			"callback" : "callback_rsp_should_reset_armors",
+			"value" : "armors"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_skins",
+			"title" : "rsp_should_reset_skins_title",
+			"description" : "rsp_should_reset_skins_desc",
+			"callback" : "callback_rsp_should_reset_skins",
+			"value" : "skins"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_outfits",
+			"title" : "rsp_should_reset_outfits_title",
+			"description" : "rsp_should_reset_outfits_desc",
+			"callback" : "callback_rsp_should_reset_outfits",
+			"value" : "outfits"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_gloves",
+			"title" : "rsp_should_reset_gloves_title",
+			"description" : "rsp_should_reset_gloves_desc",
+			"callback" : "callback_rsp_should_reset_gloves",
+			"value" : "gloves"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_weapons",
+			"title" : "rsp_should_reset_weapons_title",
+			"description" : "rsp_should_reset_weapons_desc",
+			"callback" : "callback_rsp_should_reset_weapons",
+			"value" : "weapons"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_throwables",
+			"title" : "rsp_should_reset_throwables_title",
+			"description" : "rsp_should_reset_throwables_desc",
+			"callback" : "callback_rsp_should_reset_throwables",
+			"value" : "throwables"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_melees",
+			"title" : "rsp_should_reset_melees_title",
+			"description" : "rsp_should_reset_melees_desc",
+			"callback" : "callback_rsp_should_reset_melees",
+			"value" : "melees"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_perkdecks",
+			"title" : "rsp_should_reset_perkdecks_title",
+			"description" : "rsp_should_reset_perkdecks_desc",
+			"callback" : "callback_rsp_should_reset_perkdecks",
+			"value" : "perkdecks"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_skills",
+			"title" : "rsp_should_reset_skills_title",
+			"description" : "rsp_should_reset_skills_desc",
+			"callback" : "callback_rsp_should_reset_skills",
+			"value" : "skills"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_linked_trees",
+			"title" : "rsp_should_reset_linked_trees_title",
+			"description" : "rsp_should_reset_linked_trees_desc",
+			"callback" : "callback_rsp_should_reset_linked_trees",
+			"value" : "linked_trees_only"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_deployables",
+			"title" : "rsp_should_reset_deployables_title",
+			"description" : "rsp_should_reset_deployables_desc",
+			"callback" : "callback_rsp_should_reset_deployables",
+			"value" : "deployables"
+		},
+		{
+			"type" : "toggle",
+			"id" : "id_rsp_should_reset_henchmen",
+			"title" : "rsp_should_reset_henchmen_loadouts_title",
+			"description" : "rsp_should_reset_henchmen_loadouts_desc",
+			"callback" : "callback_rsp_should_reset_henchmen_loadouts",
+			"value" : "henchmen_loadouts"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "id_rsp_should_untie_skills",
+			"title" : "rsp_should_untie_skills_title",
+			"description" : "rsp_should_untie_skills_desc",
+			"callback" : "callback_rsp_should_untie_skills",
+			"items" : [
+				"rsp_untie_skills_none",
+				"rsp_untie_skills_to_respective",
+				"rsp_untie_skills_to_single"
+			],
+			"value" : "untie"
+		},
+		{
+			"type" : "divider",
+			"size" : 36
+		},
+		{
+			"type" : "button",
+			"id" : "id_rsp_do_reset",
+			"title" : "rsp_do_reset_title",
+			"description" : "rsp_do_reset_desc",
+			"callback" : "callback_rsp_do_reset"
+		},
+		{
+			"type" : "divider",
+			"size" : 24
+		},
+		{
+			"type" : "button",
+			"id" : "id_rsp_wipe_perkdecks",
+			"title" : "rsp_wipe_perkdecks_title",
+			"description" : "rsp_wipe_perkdecks_desc",
+			"callback" : "callback_rsp_wipe_perkdecks"
+		},
+		{
+			"type" : "button",
+			"id" : "id_rsp_clear_perkdeck_progression",
+			"title" : "rsp_clear_perkdeck_progression_title",
+			"description" : "rsp_clear_perkdeck_progression_desc",
+			"callback" : "callback_rsp_clear_perkdeck_progression"
+		}
+	]
+}

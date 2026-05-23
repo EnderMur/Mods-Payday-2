@@ -1,0 +1,12 @@
+{
+	"name" : "Hold 2 Pick",
+	"description" : "Hold your interaction key to pick small loot.",
+	"author" : "Malo & TdlQ, revamp by Seven",
+	"version" : "2.1",
+	"hooks" : [
+		{
+		 	"hook_id" : "lib/managers/objectinteractionmanager",
+			"script_path" : "hold2pick.lua"
+		}
+	]
+}

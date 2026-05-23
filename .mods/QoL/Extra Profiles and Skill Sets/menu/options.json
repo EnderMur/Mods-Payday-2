@@ -1,0 +1,48 @@
+{
+	"menu_id": "epss_options_menu",
+	"parent_menu_id": "blt_options",
+	"title": "epss_options_menu_title",
+	"description": "epss_options_menu_desc",
+	"back_callback": "epss_callback_save",
+	"items": [
+		{
+			"type": "slider",
+			"display_precision": 0,
+			"id": "total_profiles_deferred",
+			"title": "epss_total_profiles_title",
+			"description": "epss_total_profiles_desc",
+			"callback": "epss_callback_slider_discrete",
+			"value": "total_profiles_deferred",
+			"max": 120,
+			"min": 1,
+			"step": 5
+		},
+		{
+			"type": "button",
+			"id": "commit_settings",
+			"title": "epss_commit_settings_title",
+			"description": "epss_commit_settings_desc",
+			"callback": "epss_callback_button"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "toggle",
+			"id": "autobind_skills_2",
+			"title": "epss_autobind_skills_title",
+			"description": "epss_autobind_skills_desc",
+			"callback": "epss_callback_toggle",
+			"value": "autobind_skills_2"
+		},
+		{
+			"type": "toggle",
+			"id": "allow_fewer",
+			"title": "epss_allow_fewer_title",
+			"description": "epss_allow_fewer_desc",
+			"callback": "epss_callback_toggle",
+			"value": "allow_fewer"
+		}
+	]
+}
